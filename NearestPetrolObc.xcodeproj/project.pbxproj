@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E09DE4A19B60FF30017F6B7 /* UIViewController+BaseContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E09DE4919B60FF30017F6B7 /* UIViewController+BaseContentViewController.m */; };
+		1E6DA6C919B31B9C005043E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DA6C819B31B9C005043E1 /* main.m */; };
+		1E6DA6CC19B31B9C005043E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DA6CB19B31B9C005043E1 /* AppDelegate.m */; };
+		1E6DA6CF19B31B9C005043E1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DA6CE19B31B9C005043E1 /* MasterViewController.m */; };
+		1E6DA6D219B31B9C005043E1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DA6D119B31B9C005043E1 /* DetailViewController.m */; };
+		1E6DA6D519B31B9C005043E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6DA6D319B31B9C005043E1 /* Main.storyboard */; };
+		1E6DA6D719B31B9C005043E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6DA6D619B31B9C005043E1 /* Images.xcassets */; };
+		1E6DA6E319B31B9C005043E1 /* NearestPetrolObcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DA6E219B31B9C005043E1 /* NearestPetrolObcTests.m */; };
+		1E6DA6F619B329F1005043E1 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DA6F519B329F1005043E1 /* Station.m */; };
+		1E6DA6F819B3311C005043E1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6DA6F719B3311C005043E1 /* MapKit.framework */; };
+		1E6DA6FB19B3352F005043E1 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DA6F919B3352F005043E1 /* MapPoint.m */; };
+		1E6DA6FE19B33A2E005043E1 /* MapPopOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DA6FD19B33A2E005043E1 /* MapPopOverViewController.m */; };
+		1EE1139519B6336C00BB74CD /* Petrol_ZA.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EE1139419B6336C00BB74CD /* Petrol_ZA.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E6DA6DD19B31B9C005043E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E6DA6BB19B31B9C005043E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E6DA6C219B31B9C005043E1;
+			remoteInfo = NearestPetrolObc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E09DE4819B60FF30017F6B7 /* UIViewController+BaseContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BaseContentViewController.h"; sourceTree = "<group>"; };
+		1E09DE4919B60FF30017F6B7 /* UIViewController+BaseContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BaseContentViewController.m"; sourceTree = "<group>"; };
+		1E6DA6C319B31B9C005043E1 /* NearestPetrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearestPetrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6DA6C719B31B9C005043E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6DA6C819B31B9C005043E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E6DA6CA19B31B9C005043E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E6DA6CB19B31B9C005043E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E6DA6CD19B31B9C005043E1 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		1E6DA6CE19B31B9C005043E1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		1E6DA6D019B31B9C005043E1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1E6DA6D119B31B9C005043E1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1E6DA6D419B31B9C005043E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E6DA6D619B31B9C005043E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E6DA6DC19B31B9C005043E1 /* NearestPetrolObcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearestPetrolObcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6DA6E119B31B9C005043E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6DA6E219B31B9C005043E1 /* NearestPetrolObcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearestPetrolObcTests.m; sourceTree = "<group>"; };
+		1E6DA6EE19B31C68005043E1 /* JsonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonHelper.h; sourceTree = "<group>"; };
+		1E6DA6F419B329F1005043E1 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		1E6DA6F519B329F1005043E1 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		1E6DA6F719B3311C005043E1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1E6DA6F919B3352F005043E1 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		1E6DA6FA19B3352F005043E1 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		1E6DA6FC19B33A2E005043E1 /* MapPopOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPopOverViewController.h; sourceTree = "<group>"; };
+		1E6DA6FD19B33A2E005043E1 /* MapPopOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPopOverViewController.m; sourceTree = "<group>"; };
+		1EE1139419B6336C00BB74CD /* Petrol_ZA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Petrol_ZA.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E6DA6C019B31B9C005043E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6DA6F819B3311C005043E1 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6DA6D919B31B9C005043E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6DA6BA19B31B9C005043E1 = {
+			isa = PBXGroup;
+			children = (
+				1E6DA6F719B3311C005043E1 /* MapKit.framework */,
+				1E6DA6C519B31B9C005043E1 /* NearestPetrolObc */,
+				1E6DA6DF19B31B9C005043E1 /* NearestPetrolObcTests */,
+				1E6DA6C419B31B9C005043E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E6DA6C419B31B9C005043E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E6DA6C319B31B9C005043E1 /* NearestPetrol.app */,
+				1E6DA6DC19B31B9C005043E1 /* NearestPetrolObcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E6DA6C519B31B9C005043E1 /* NearestPetrolObc */ = {
+			isa = PBXGroup;
+			children = (
+				1E09DE4819B60FF30017F6B7 /* UIViewController+BaseContentViewController.h */,
+				1E09DE4919B60FF30017F6B7 /* UIViewController+BaseContentViewController.m */,
+				1E6DA6CA19B31B9C005043E1 /* AppDelegate.h */,
+				1E6DA6CB19B31B9C005043E1 /* AppDelegate.m */,
+				1E6DA6CD19B31B9C005043E1 /* MasterViewController.h */,
+				1E6DA6CE19B31B9C005043E1 /* MasterViewController.m */,
+				1E6DA6F919B3352F005043E1 /* MapPoint.m */,
+				1E6DA6FA19B3352F005043E1 /* MapPoint.h */,
+				1E6DA6D019B31B9C005043E1 /* DetailViewController.h */,
+				1E6DA6D119B31B9C005043E1 /* DetailViewController.m */,
+				1E6DA6D319B31B9C005043E1 /* Main.storyboard */,
+				1E6DA6D619B31B9C005043E1 /* Images.xcassets */,
+				1E6DA6C619B31B9C005043E1 /* Supporting Files */,
+				1E6DA6EE19B31C68005043E1 /* JsonHelper.h */,
+				1E6DA6F419B329F1005043E1 /* Station.h */,
+				1E6DA6F519B329F1005043E1 /* Station.m */,
+				1E6DA6FC19B33A2E005043E1 /* MapPopOverViewController.h */,
+				1E6DA6FD19B33A2E005043E1 /* MapPopOverViewController.m */,
+			);
+			path = NearestPetrolObc;
+			sourceTree = "<group>";
+		};
+		1E6DA6C619B31B9C005043E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1139419B6336C00BB74CD /* Petrol_ZA.json */,
+				1E6DA6C719B31B9C005043E1 /* Info.plist */,
+				1E6DA6C819B31B9C005043E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E6DA6DF19B31B9C005043E1 /* NearestPetrolObcTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E6DA6E219B31B9C005043E1 /* NearestPetrolObcTests.m */,
+				1E6DA6E019B31B9C005043E1 /* Supporting Files */,
+			);
+			path = NearestPetrolObcTests;
+			sourceTree = "<group>";
+		};
+		1E6DA6E019B31B9C005043E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E6DA6E119B31B9C005043E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E6DA6C219B31B9C005043E1 /* NearestPetrol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6DA6E619B31B9C005043E1 /* Build configuration list for PBXNativeTarget "NearestPetrol" */;
+			buildPhases = (
+				1E6DA6BF19B31B9C005043E1 /* Sources */,
+				1E6DA6C019B31B9C005043E1 /* Frameworks */,
+				1E6DA6C119B31B9C005043E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearestPetrol;
+			productName = NearestPetrolObc;
+			productReference = 1E6DA6C319B31B9C005043E1 /* NearestPetrol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E6DA6DB19B31B9C005043E1 /* NearestPetrolObcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6DA6E919B31B9C005043E1 /* Build configuration list for PBXNativeTarget "NearestPetrolObcTests" */;
+			buildPhases = (
+				1E6DA6D819B31B9C005043E1 /* Sources */,
+				1E6DA6D919B31B9C005043E1 /* Frameworks */,
+				1E6DA6DA19B31B9C005043E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E6DA6DE19B31B9C005043E1 /* PBXTargetDependency */,
+			);
+			name = NearestPetrolObcTests;
+			productName = NearestPetrolObcTests;
+			productReference = 1E6DA6DC19B31B9C005043E1 /* NearestPetrolObcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E6DA6BB19B31B9C005043E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Johann Werner";
+				TargetAttributes = {
+					1E6DA6C219B31B9C005043E1 = {
+						CreatedOnToolsVersion = 6.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					1E6DA6DB19B31B9C005043E1 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1E6DA6C219B31B9C005043E1;
+					};
+				};
+			};
+			buildConfigurationList = 1E6DA6BE19B31B9C005043E1 /* Build configuration list for PBXProject "NearestPetrolObc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E6DA6BA19B31B9C005043E1;
+			productRefGroup = 1E6DA6C419B31B9C005043E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E6DA6C219B31B9C005043E1 /* NearestPetrol */,
+				1E6DA6DB19B31B9C005043E1 /* NearestPetrolObcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E6DA6C119B31B9C005043E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6DA6D519B31B9C005043E1 /* Main.storyboard in Resources */,
+				1E6DA6D719B31B9C005043E1 /* Images.xcassets in Resources */,
+				1EE1139519B6336C00BB74CD /* Petrol_ZA.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6DA6DA19B31B9C005043E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6DA6BF19B31B9C005043E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6DA6CC19B31B9C005043E1 /* AppDelegate.m in Sources */,
+				1E6DA6FE19B33A2E005043E1 /* MapPopOverViewController.m in Sources */,
+				1E6DA6F619B329F1005043E1 /* Station.m in Sources */,
+				1E6DA6CF19B31B9C005043E1 /* MasterViewController.m in Sources */,
+				1E09DE4A19B60FF30017F6B7 /* UIViewController+BaseContentViewController.m in Sources */,
+				1E6DA6C919B31B9C005043E1 /* main.m in Sources */,
+				1E6DA6D219B31B9C005043E1 /* DetailViewController.m in Sources */,
+				1E6DA6FB19B3352F005043E1 /* MapPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6DA6D819B31B9C005043E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6DA6E319B31B9C005043E1 /* NearestPetrolObcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E6DA6DE19B31B9C005043E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E6DA6C219B31B9C005043E1 /* NearestPetrol */;
+			targetProxy = 1E6DA6DD19B31B9C005043E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E6DA6D319B31B9C005043E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E6DA6D419B31B9C005043E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E6DA6E419B31B9C005043E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E6DA6E519B31B9C005043E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E6DA6E719B31B9C005043E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NearestPetrolObc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E6DA6E819B31B9C005043E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NearestPetrolObc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E6DA6EA19B31B9C005043E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NearestPetrolObcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearestPetrolObc.app/NearestPetrolObc";
+			};
+			name = Debug;
+		};
+		1E6DA6EB19B31B9C005043E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NearestPetrolObcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearestPetrolObc.app/NearestPetrolObc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E6DA6BE19B31B9C005043E1 /* Build configuration list for PBXProject "NearestPetrolObc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6DA6E419B31B9C005043E1 /* Debug */,
+				1E6DA6E519B31B9C005043E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6DA6E619B31B9C005043E1 /* Build configuration list for PBXNativeTarget "NearestPetrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6DA6E719B31B9C005043E1 /* Debug */,
+				1E6DA6E819B31B9C005043E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6DA6E919B31B9C005043E1 /* Build configuration list for PBXNativeTarget "NearestPetrolObcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6DA6EA19B31B9C005043E1 /* Debug */,
+				1E6DA6EB19B31B9C005043E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E6DA6BB19B31B9C005043E1 /* Project object */;
+}
